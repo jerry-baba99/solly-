@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-indie: "Indie Flower", cursive;
+  --font-caveat: "Caveat", cursive;
+  --font-king: "Loved by the King", cursive;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-regular {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.loved-by-the-king-regular {
+  font-family: "Loved by the King", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  @apply bg-black text-white overflow-hidden;
+  font-family: var(--font-indie);
+}
