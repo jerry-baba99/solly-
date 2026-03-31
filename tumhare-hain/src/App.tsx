@@ -360,7 +360,7 @@ export default function App() {
   return (
     <div className="relative w-full h-screen overflow-hidden bg-black flex items-center justify-center">
       {burstPos && <HeartBurst x={burstPos.x} y={burstPos.y} onComplete={() => {}} />}
-      <audio ref={audioRef} src="/public/11.mp3" loop />
+      <audio ref={audioRef} src="/11.mp3" loop />
 
       {/* Night Sky Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-[#050005] to-[#1a001a] z-0">
